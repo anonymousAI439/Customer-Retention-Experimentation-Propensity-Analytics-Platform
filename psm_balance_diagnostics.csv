@@ -1,0 +1,4 @@
+covariate,smd_unmatched,smd_matched,balanced_post_match
+pre_policy_activity,1.5625588632518461,0.05288726890514936,True
+initial_credit_score,1.2029401592840567,0.08681960013687301,True
+propensity_score,1.661318468460562,0.05535065674986586,True

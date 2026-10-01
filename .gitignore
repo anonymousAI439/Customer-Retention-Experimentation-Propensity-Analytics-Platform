@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.joblib
+*.db
+*.csv
+.pytest_cache/
+data/*.db

@@ -1,0 +1,29 @@
+database:
+  db_path: "data/retention_analytics.db"
+
+data_generation:
+  num_customers: 2500
+  start_date: "2024-01-01"
+  end_date: "2025-12-31"
+  observation_end: "2025-09-30"
+  churn_window_days: 90
+
+modeling:
+  train_start: "2024-01-01"
+  train_cutoff: "2025-06-30"
+  train_outcome_days: 90
+  val_cutoff: "2025-09-30"
+  val_outcome_days: 90
+  random_state: 42
+  target_col: "is_churned"
+
+experiment:
+  alpha: 0.05
+  power: 0.80
+  mde: 0.03
+
+economics:
+  avg_monthly_margin: 45.0
+  discount_rate: 0.08
+  campaign_cost_per_user: 12.0
+  intervention_success_rate: 0.22
